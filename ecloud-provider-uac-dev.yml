@@ -1,5 +1,5 @@
 ecloud:
-	enableSqlLogInterceptor: false
+  enableSqlLogInterceptor: false
   auth:
     rest-pwd-url: http://dev-login.ecloud.net/resetPwd?resetPwdKey=
     active-user-url: http://dev-api.ecloud.net:7979/uac/auth/activeUser/
@@ -101,5 +101,5 @@ ecloud:
 		 thumbImage:
 		 width: 150
 	 	 height: 150
-	 	 trackerList:  #TrackerList参数,支持多个
+	 	 trackerList:  #TrackerList虏脦脢媒,脰搂鲁脰露脿赂枚
 	 		 - 192.168.1.156:22122
