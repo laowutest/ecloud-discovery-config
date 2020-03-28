@@ -143,7 +143,6 @@ hystrix:
             timeoutInMilliseconds: 20000
 
 ecloud:
-	enableSqlLogInterceptor: false
   auth:
     rest-pwd-url: http://dev-login.ecloud.net/resetPwd?resetPwdKey=
     active-user-url: http://dev-api.ecloud.net:7979/uac/auth/activeUser/
@@ -151,6 +150,7 @@ ecloud:
     jwt:
       expiredRemainMinutes: 20
       expiredMinutes: 120
+  enableSqlLogInterceptor: false
   token:
     interceptor:
       enable: true
