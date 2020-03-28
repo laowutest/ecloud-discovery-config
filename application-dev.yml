@@ -9,7 +9,7 @@ management:
     enabled: false
 
 spring:
-	profiles:
+  profiles:
     active: dev
   cloud:
     config:
