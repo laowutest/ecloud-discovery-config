@@ -239,14 +239,16 @@ ecloud:
         clientSecret: ecloudClientSecret
         accessTokenValidateSeconds: 7200
         scope: "*" 
-		fdfs:
-		 soTimeout: 30000
-		 connectTimeout: 20000
-		 thumbImage:
-		 width: 150
-	 	 height: 150
-	 	 trackerList:  #TrackerList参数,支持多个
-	 		 - 192.168.1.156:22122
+fdfs:
+  enableSqlLogInterceptor: false
+  auth:
+  soTimeout: 30000
+  connectTimeout: 20000
+  thumbImage:
+    width: 150
+    height: 150
+    trackerList:  #TrackerList参数,支持多个
+      - 192.168.1.156:22122
 
 info:
   软件著作权: ecloud微服务平台
